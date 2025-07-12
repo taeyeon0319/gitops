@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: ureverse-be
+        namespace: myapp
     spec:
       containers:
       - name: ureverse-be
